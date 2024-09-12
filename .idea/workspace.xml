@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83df101-5dac-4834-a275-e4203aa22126" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__scala_sdk_2_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Kangaroo.Kangaroo-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Kangaroo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Command.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Die.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Kangaroo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Point.scala" afterDir="false" />
+    <list default="true" id="c83df101-5dac-4834-a275-e4203aa22126" name="Changes" comment="Die.scala:&#10;A simple class that generates random directions and keeps track of how many times each direction is chosen. The roll() method returns a random direction and updates the statistics. The printStats() method outputs the statistics for each direction.&#10;&#10;Point.scala:&#10;Represents the kangaroo's position with two attributes, x and y.&#10;&#10;Command.scala:&#10;Represents the kangaroo. It stores the kangaroo's current position, manages the logic for its movement, and checks boundaries. The move() method updates the kangaroo's position based on the die's direction, while the isAtHome() method checks if the kangaroo has reached the target position.&#10;&#10;Kangaroo.scala:&#10;The main program is responsible for receiving the user's input for the grid size, creating the die and kangaroo objects, and simulating the kangaroo's hopping until it reaches the target position.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +26,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -63,7 +53,7 @@
     "Application.Kangaroo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -96,6 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1726001186149</updated>
     </task>
+    <task id="LOCAL-00001" summary="Die.scala:&#10;A simple class that generates random directions and keeps track of how many times each direction is chosen. The roll() method returns a random direction and updates the statistics. The printStats() method outputs the statistics for each direction.&#10;&#10;Point.scala:&#10;Represents the kangaroo's position with two attributes, x and y.&#10;&#10;Command.scala:&#10;Represents the kangaroo. It stores the kangaroo's current position, manages the logic for its movement, and checks boundaries. The move() method updates the kangaroo's position based on the die's direction, while the isAtHome() method checks if the kangaroo has reached the target position.&#10;&#10;Kangaroo.scala:&#10;The main program is responsible for receiving the user's input for the grid size, creating the die and kangaroo objects, and simulating the kangaroo's hopping until it reaches the target position.">
+      <option name="closed" value="true" />
+      <created>1726003319956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726003319956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Die.scala:&#10;A simple class that generates random directions and keeps track of how many times each direction is chosen. The roll() method returns a random direction and updates the statistics. The printStats() method outputs the statistics for each direction.&#10;&#10;Point.scala:&#10;Represents the kangaroo's position with two attributes, x and y.&#10;&#10;Command.scala:&#10;Represents the kangaroo. It stores the kangaroo's current position, manages the logic for its movement, and checks boundaries. The move() method updates the kangaroo's position based on the die's direction, while the isAtHome() method checks if the kangaroo has reached the target position.&#10;&#10;Kangaroo.scala:&#10;The main program is responsible for receiving the user's input for the grid size, creating the die and kangaroo objects, and simulating the kangaroo's hopping until it reaches the target position." />
+    <option name="LAST_COMMIT_MESSAGE" value="Die.scala:&#10;A simple class that generates random directions and keeps track of how many times each direction is chosen. The roll() method returns a random direction and updates the statistics. The printStats() method outputs the statistics for each direction.&#10;&#10;Point.scala:&#10;Represents the kangaroo's position with two attributes, x and y.&#10;&#10;Command.scala:&#10;Represents the kangaroo. It stores the kangaroo's current position, manages the logic for its movement, and checks boundaries. The move() method updates the kangaroo's position based on the die's direction, while the isAtHome() method checks if the kangaroo has reached the target position.&#10;&#10;Kangaroo.scala:&#10;The main program is responsible for receiving the user's input for the grid size, creating the die and kangaroo objects, and simulating the kangaroo's hopping until it reaches the target position." />
   </component>
 </project>
